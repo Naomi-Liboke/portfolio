@@ -17,5 +17,58 @@ body{
 
 .home-info h2{
     font-size: 32px;
+    margin-top: -30px;
 }
 
+.home-info p{
+    font-size: 18px;
+}
+
+.button-container{
+    display: flex;
+    gap: 25px; 
+    align-items: center;
+}
+
+.btn1{
+  background-color: #0f9b9f;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px #0f9b9f;
+  transition: all 0.4s ease;
+}
+
+.btn1:hover {
+  background-color: transparent;
+  color: #0f9b9f;
+  border: 2px solid #0f9b9f; /* <-- Same border width */
+  box-shadow: none;
+}
+
+.home-info .btn1 .btn2{
+    margin-left: 20px;
+     
+}
+
+.btn2{
+      background-color: #0f9b9f;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px #0f9b9f;
+  transition: all 0.4s ease;
+}
+
+.btn2:hover {
+  background-color: transparent;
+  color: #0f9b9f;
+  border: 2px solid #0f9b9f; /* <-- Same border width */
+  box-shadow: none;
+}
